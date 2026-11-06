@@ -1,0 +1,113 @@
+:root {
+  --bg: #EEEEEE;
+  --bg-muted: #e5e9e1;
+  --text: #000000;
+  --text-muted: #526052;
+  --card-bg: #ffffff;
+  --border: #d4dbd2;
+  --navbar-bg: #ffffff;
+  --input-bg: #ffffff;
+  --input-text: #000000;
+  --input-border: #bdc9bc;
+  --table-stripe: rgba(16, 59, 22, 0.035);
+  --table-hover: rgba(16, 59, 22, 0.07);
+
+  --primary: #103B16;
+  --primary-hover: #b7a943;
+  --primary-rgb: 16, 59, 22;
+  --primary-text: #ffffff;
+  --accent: #CEBF5E;
+  --accent-hover: #b7a943;
+
+  --danger: #c0392b;
+  --danger-hover: #a93226;
+  --danger-rgb: 192, 57, 43;
+  --danger-text: #ffffff;
+  --secondary: #59645a;
+  --secondary-hover: #414b42;
+  --secondary-text: #ffffff;
+
+  --hero-bg: #103B16;
+  --hero-accent: #CEBF5E;
+  --hero-green: #1b5423;
+  --hero-button-text: #ffffff;
+
+  --radius: 14px;
+  --radius-sm: 10px;
+}
+
+.auth-card-shell {
+  width: min(100%, 420px);
+  margin: 0 auto;
+}
+
+.auth-card {
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.auth-card .card-body {
+  padding: 1.25rem !important;
+}
+
+[data-theme="dark"] {
+  --bg: #0b130c;
+  --bg-muted: #111e12;
+  --text: #EEEEEE;
+  --text-muted: #b9c3b7;
+  --card-bg: #142017;
+  --border: #2b3c2d;
+  --navbar-bg: #101a12;
+  --input-bg: #101a12;
+  --input-text: #EEEEEE;
+  --input-border: #394a3b;
+  --table-stripe: rgba(238, 238, 238, 0.035);
+  --table-hover: rgba(238, 238, 238, 0.07);
+
+  --primary: #CEBF5E;
+  --primary-hover: #dbd07e;
+  --primary-rgb: 206, 191, 94;
+  --primary-text: #000000;
+  --accent: #CEBF5E;
+  --accent-hover: #dbd07e;
+
+  --danger: #ef766c;
+  --danger-hover: #e45b50;
+  --danger-rgb: 239, 118, 108;
+  --danger-text: #000000;
+  --secondary: #68766a;
+  --secondary-hover: #7c8b7e;
+  --secondary-text: #ffffff;
+
+  --hero-bg: #103B16;
+  --hero-accent: #CEBF5E;
+  --hero-green: #CEBF5E;
+  --hero-button-text: #000000;
+
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--primary-hover);
+}
+
+code {
+  font-family: monospace;
+}
